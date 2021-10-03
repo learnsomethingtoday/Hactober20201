@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            display: flex;
+            height: 500px;
+            width: 100%;
+            border: 5px solid black;
+            margin-top: 30px;
+
+        }
+        .subcon{
+            height: 25px;
+            width: 100%;
+            margin-top: 70px ;
+            line-height: 25px;
+            padding-left: 100px;
+            border: 1px solid black;
+            border-radius: 30px;
+        }
+       
+        .subcon:nth-child(1){
+            background-color: aqua;
+        }
+        .subcon:nth-child(1):hover{
+            background-color: black;
+            color: white;
+        }
+        .subcon:nth-child(2){
+            background-color: red;
+        }
+        .subcon:nth-child(2):hover{
+            background-color: black;
+            color: white;
+        }
+        .subcon:nth-child(3){
+            background-color: blue;
+        }
+        .subcon:nth-child(3):hover{
+            background-color: black;
+            color: white;
+        }
+        .subcon:nth-child(4){
+            background-color: yellow;
+        }
+        .subcon:nth-child(4):hover{
+            background-color: black;
+            color: white;
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="subcon">Lokshabha</div>
+        <div class="subcon">Rajyashabha</div>
+        <div class="subcon">Parliamentry</div>
+        <div class="subcon">Prime Minister</div>
+    </div>
+</body>
+</html>
